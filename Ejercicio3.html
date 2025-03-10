@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi pagina web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a mi Pagina Web</h1>
+      <p>Esta es una pagina de ejemplo para el ejercicio</p>
+    </header>
+    <main>
+      <h2>Nuestros Servicios</h2>
+      <ol type="A">
+        <li>Limpieza</li>
+        <li>Transporte</li>
+        <li>Seguridad</li>
+      </ol>
+      <a href="https://www.google.com/" target="_blank" rel="noopener"
+        >Ver más servicios
+      </a>
+      <br />
+      <br />
+      <form>
+        <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" title="nombre" required />
+          <br />
+          <label for="apellido">Apellido:</label>
+          <input type="text" title="apellido" required />
+          <br />
+          <label for="apellido">Fecha de Nacimiento:</label>
+          <input type="date" title="fecha" required />
+          <br />
+          <label for="sexo">Género:</label> <br />
+          <input
+            type="radio"
+            name="sexo"
+            title="H"
+            value="hombre"
+            required
+          />Masculino
+          <input
+            type="radio"
+            name="sexo"
+            title="M"
+            value="mujer"
+            required
+          />Femenino
+          <input type="radio" name="sexo" title="O" value="otro" required />Otro
+        </fieldset>
+        <fieldset>
+          <legend>Informacion de Contacto</legend>
+          <label for="correo">Correo Electronico:</label>
+          <input type="email" title="correo" required />
+          <br />
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" title="telefono" required />
+          <br />
+          <label for="dir">Dirección:</label>
+          <input type="textarea" title="dir" required />
+        </fieldset>
+        <fieldset>
+          <legend>Informacion de Cuenta</legend>
+          <label for="usuario">Nombre de Usuario:</label>
+          <input type="text" title="usuario" required />
+          <br />
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" title="contraseña" required />
+          <br />
+          <label for="2contraseña">Confirmacion de Contraseña:</label>
+          <input type="password" title="2contraseña" required />
+        </fieldset>
+        <fieldset>
+          <legend>Preferencias</legend>
+          <select name="colores" title="color" id="color">
+            <option value="azul">Azul</option>
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="amarillo">Amarillo</option>
+          </select>
+        </fieldset>
+          <br />
+           <fieldset>
+            <input
+            type="checkbox" name="aceptar" title="aceptar" required/> Acepto los terminos y condiciones
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+           </fieldset>
+    </main>
+
+    <footer>
+      <a href="mailto:info@miempresa.com">Enviar correo Electronico</a>
+      <a href="tel:+1234567890">Todos los derechos reservados &copy;</a>
+    </footer>
+  </body>
+</html>
